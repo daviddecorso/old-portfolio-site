@@ -4,12 +4,6 @@ html {
 }
 
 body {
-    /* background: linear-gradient(#3f3251, #002025, 70%); */
-    /* background: radial-gradient(ellipse farthest-corner at center bottom, #2e79a4, #6bdbea); */
-    /* background: linear-gradient(-45deg, #5d0cc7, #2e79a4, #6bdbea, #17ffc5); */
-    /* animation: gradient 15s ease infinite; */
-    
-    /* background: linear-gradient(-45deg, #5e3c8f, #002025); */
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -46,57 +40,21 @@ body {
       font-size: 50px;
   }
 
-  ul > li {
-    display: inline-block;
-    list-style: none;
-    position: relative;
-    z-index: 1;
-    padding: 0 4px 0 4px;
-  }
-
-  ul > li > a > img:hover {
-    transform: scale(1.2);
-  }
+  .body-text {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    line-height: 30px;
+    font-size: 24px;
+}
 
   .socials {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      vertical-align: center;
-      align-items: center;
-      margin-bottom: 10px;
-  }
-
-  .paper {
-      width: 35px;
-      height: auto;
-  }
-
-  .email {
-      width: 35px;
-      height: auto;
-  }
-
-  .ln-logo {
-    width: 35px;
-    height: auto;
-  }
-
-  .github {
-      width: 35px;
-      height: auto;
-  }
-
-  .body-text {
-      padding-top: 25px;
-      padding-bottom: 0px;
-      line-height: 30px;
-      font-size: 24px;
-  }
-
- /*  .contact:hover{
-        background-size: 180% 200%;
-  } */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
 
   .contact {
     
@@ -121,7 +79,43 @@ body {
     z-index: -1;
   }
 
-  .contact-div a {
+   .contact-div a {
       text-decoration: none;
+  }
+
+   /*  .contact:hover{
+        background-size: 180% 200%;
+  } */
+
+  ul > li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    z-index: 1;
+    padding: 0 4px 0 4px;
+  }
+
+  ul > li > a > img:hover {
+    transform: scale(1.2);
+  }
+
+  .paper {
+      width: 35px;
+      height: auto;
+  }
+
+  .email {
+      width: 35px;
+      height: auto;
+  }
+
+  .ln-logo {
+    width: 35px;
+    height: auto;
+  }
+
+  .github {
+      width: 35px;
+      height: auto;
   }
 
