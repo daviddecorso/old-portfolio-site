@@ -1,5 +1,6 @@
 html {
-    height: 100%;
+  background: linear-gradient(-45deg, #5e3c8f, #002025);
+  height: 100%;
 }
 
 body {
@@ -9,8 +10,8 @@ body {
     /* animation: gradient 15s ease infinite; */
     
     /* background: linear-gradient(-45deg, #5e3c8f, #002025); */
-    background: linear-gradient(-45deg, #5e3c8f, #002025);
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,12 +20,11 @@ body {
     text-align: center;
     color: #fff;
     line-height: 0px;
-    height: 100%;
-    overflow: hidden;
+  
   }
 
   #main {
-    height: 100%;
+    position: relative;
     z-index: 1;
   }
 
@@ -38,12 +38,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 13%;
-    height: 80%;
-    width: auto;
+    height: auto;
+    width: 23vw;
 }
 
   .hello {
-      font-size: 60px;
+      font-size: 50px;
   }
 
   .socials {
@@ -51,7 +51,7 @@ body {
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      margin-bottom: 0px;
+      margin-bottom: 10px;
   }
 
   .paper {
@@ -115,6 +115,7 @@ body {
     
     padding-top: 25px;
     padding-bottom: 5px;
+    z-index: -1;
   }
 
   .contact-div a {
